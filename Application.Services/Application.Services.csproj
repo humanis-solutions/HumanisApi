@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Humanis.Application.Services</RootNamespace>
+    <AssemblyName>Humanis.Application.Services</AssemblyName>
+  </PropertyGroup>
+
+</Project>
