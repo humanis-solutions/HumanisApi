@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Humanis.Domain.Model</RootNamespace>
+    <AssemblyName>Humanis.Domain.Model</AssemblyName>
+  </PropertyGroup>
+
+</Project>
