@@ -1,0 +1,9 @@
+C:\Humanis\HumanisApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Humanis\HumanisApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Humanis\HumanisApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Humanis\HumanisApi\obj\Debug\netcoreapp3.1\HumanisApi.csprojAssemblyReference.cache
+C:\Humanis\HumanisApi\obj\Debug\netcoreapp3.1\HumanisApi.AssemblyInfoInputs.cache
+C:\Humanis\HumanisApi\obj\Debug\netcoreapp3.1\HumanisApi.AssemblyInfo.cs
+C:\Humanis\HumanisApi\obj\Debug\netcoreapp3.1\HumanisApi.RazorTargetAssemblyInfo.cache
+C:\Humanis\HumanisApi\obj\Debug\netcoreapp3.1\staticwebassets\HumanisApi.StaticWebAssets.Manifest.cache
+C:\Humanis\HumanisApi\obj\Debug\netcoreapp3.1\staticwebassets\HumanisApi.StaticWebAssets.xml
