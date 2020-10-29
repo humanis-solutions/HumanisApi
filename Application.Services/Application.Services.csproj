@@ -6,4 +6,9 @@
     <AssemblyName>Humanis.Application.Services</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Application.DTO\Application.DTO.csproj" />
+    <ProjectReference Include="..\Data.Repository\Data.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

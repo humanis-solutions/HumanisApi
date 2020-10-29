@@ -1,0 +1,12 @@
+C:\Humanis\HumanisApi\Data.Repository\bin\Debug\netstandard2.0\Humanis.Data.Repository.deps.json
+C:\Humanis\HumanisApi\Data.Repository\bin\Debug\netstandard2.0\Humanis.Data.Repository.dll
+C:\Humanis\HumanisApi\Data.Repository\bin\Debug\netstandard2.0\Humanis.Data.Repository.pdb
+C:\Humanis\HumanisApi\Data.Repository\obj\Debug\netstandard2.0\Data.Repository.AssemblyInfoInputs.cache
+C:\Humanis\HumanisApi\Data.Repository\obj\Debug\netstandard2.0\Data.Repository.AssemblyInfo.cs
+C:\Humanis\HumanisApi\Data.Repository\obj\Debug\netstandard2.0\Data.Repository.csproj.CoreCompileInputs.cache
+C:\Humanis\HumanisApi\Data.Repository\obj\Debug\netstandard2.0\Humanis.Data.Repository.dll
+C:\Humanis\HumanisApi\Data.Repository\obj\Debug\netstandard2.0\Humanis.Data.Repository.pdb
+C:\Humanis\HumanisApi\Data.Repository\bin\Debug\netstandard2.0\Humanis.Domain.Model.dll
+C:\Humanis\HumanisApi\Data.Repository\bin\Debug\netstandard2.0\Humanis.Domain.Model.pdb
+C:\Humanis\HumanisApi\Data.Repository\obj\Debug\netstandard2.0\Data.Repository.csprojAssemblyReference.cache
+C:\Humanis\HumanisApi\Data.Repository\obj\Debug\netstandard2.0\Data.Repository.csproj.CopyComplete

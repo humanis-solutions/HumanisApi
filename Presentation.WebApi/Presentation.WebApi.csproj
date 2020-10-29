@@ -15,5 +15,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="5.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Application.DTO\Application.DTO.csproj" />
+    <ProjectReference Include="..\Application.Services\Application.Services.csproj" />
+  </ItemGroup>
+
 
 </Project>
