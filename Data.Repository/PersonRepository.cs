@@ -5,8 +5,9 @@ using System.Linq;
 
 namespace Humanis.Data.Repository
 {
-    public class PersonRepository
+    public class PersonRepository : IPersonRepository
     {
+
         private List<Person> persons;
         public PersonRepository()
         {

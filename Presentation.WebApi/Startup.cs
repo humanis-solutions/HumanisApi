@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Humanis.Application.Services;
 using Humanis.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,9 +36,10 @@ namespace Humanis.Presentation.WebApi
             });
 
             services.AddSwaggerGenNewtonsoftSupport(); // explicit opt-in - needs to be placed after AddSwaggerGen()
-
-            services.AddSingleton<IPersonRepository>();
-
+            
+            var personRepository = new PersonRepository();
+            services.AddSingleton<IPersonRepository>(personRepository);
+            services.AddSingleton<IPersonService>(new PersonService(personRepository));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
