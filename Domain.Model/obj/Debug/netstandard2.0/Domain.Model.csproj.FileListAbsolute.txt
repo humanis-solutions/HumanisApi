@@ -6,3 +6,4 @@ C:\Humanis\HumanisApi\Domain.Model\obj\Debug\netstandard2.0\Domain.Model.Assembl
 C:\Humanis\HumanisApi\Domain.Model\obj\Debug\netstandard2.0\Domain.Model.csproj.CoreCompileInputs.cache
 C:\Humanis\HumanisApi\Domain.Model\obj\Debug\netstandard2.0\Humanis.Domain.Model.dll
 C:\Humanis\HumanisApi\Domain.Model\obj\Debug\netstandard2.0\Humanis.Domain.Model.pdb
+C:\Humanis\HumanisApi\Domain.Model\obj\Debug\netstandard2.0\Domain.Model.csprojAssemblyReference.cache

@@ -97,6 +97,9 @@
               },
               "C:\\Humanis\\HumanisApi\\Data.Repository\\Data.Repository.csproj": {
                 "projectPath": "C:\\Humanis\\HumanisApi\\Data.Repository\\Data.Repository.csproj"
+              },
+              "C:\\Humanis\\HumanisApi\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Humanis\\HumanisApi\\Domain.Model\\Domain.Model.csproj"
               }
             }
           }

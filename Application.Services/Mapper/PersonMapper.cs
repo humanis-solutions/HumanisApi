@@ -10,6 +10,11 @@ namespace Humanis.Application.Services.Mapper
 
         public static DTO.Person ToDto(this Domain.Model.Person person)
         {
+            if (person == null)
+            {
+                return null;
+            }
+
             return new DTO.Person
             {
                 FirstName = person.FirstName,

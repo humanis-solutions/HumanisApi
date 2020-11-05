@@ -225,6 +225,7 @@
     ".NETStandard,Version=v2.0": [
       "Humanis.Application.DTO >= 1.0.0",
       "Humanis.Data.Repository >= 1.0.0",
+      "Humanis.Domain.Model >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -266,6 +267,9 @@
             },
             "C:\\Humanis\\HumanisApi\\Data.Repository\\Data.Repository.csproj": {
               "projectPath": "C:\\Humanis\\HumanisApi\\Data.Repository\\Data.Repository.csproj"
+            },
+            "C:\\Humanis\\HumanisApi\\Domain.Model\\Domain.Model.csproj": {
+              "projectPath": "C:\\Humanis\\HumanisApi\\Domain.Model\\Domain.Model.csproj"
             }
           }
         }

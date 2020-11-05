@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Humanis.Application.DTO;
 using Humanis.Application.Services;
+using Humanis.Data.Repository;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,9 +17,9 @@ namespace Humanis.Presentation.WebApi.Controllers
 
         private PersonService persons;
 
-        public PersonsController()
+        public PersonsController(IPersonRepository personRepository)
         {
-            persons = new PersonService();
+            persons = new PersonService(personRepository);
         }
 
 

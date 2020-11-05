@@ -6,3 +6,4 @@ C:\Humanis\HumanisApi\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.A
 C:\Humanis\HumanisApi\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.csproj.CoreCompileInputs.cache
 C:\Humanis\HumanisApi\Application.DTO\obj\Debug\netstandard2.0\Humanis.Application.DTO.dll
 C:\Humanis\HumanisApi\Application.DTO\obj\Debug\netstandard2.0\Humanis.Application.DTO.pdb
+C:\Humanis\HumanisApi\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.csprojAssemblyReference.cache

@@ -10,10 +10,10 @@ namespace Humanis.Application.Services
 
     public class PersonService :IPersonService
     {
-        private PersonRepository personRepository;
-        public PersonService()
+        private readonly IPersonRepository personRepository;
+        public PersonService(IPersonRepository personRepository)
         {
-            personRepository = new PersonRepository();
+            this.personRepository = personRepository;
         }
 
         public IEnumerable<Person> GetAll()
