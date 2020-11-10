@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Humanis.Application.Services;
 using Humanis.Data.Repository;
+using Humanis.Infrastructure.CrossCutting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MongoDB.Driver;
 
 namespace Humanis.Presentation.WebApi
 {
@@ -36,8 +38,23 @@ namespace Humanis.Presentation.WebApi
             });
 
             services.AddSwaggerGenNewtonsoftSupport(); // explicit opt-in - needs to be placed after AddSwaggerGen()
-            
-            var personRepository = new PersonRepository();
+
+            var appSettings = new ApplicationSettings();
+
+            //Map AppSettings
+            Configuration.GetSection("App").Bind(appSettings);
+            services.AddSingleton<IApplicationSettings>(appSettings);
+
+            // Prepare MongoDB connection to provide to dependencies
+            var connectionString = appSettings.MongoDBSettings.ConnectionString;
+            var timeoutMs = appSettings.MongoDBSettings.TimeoutMs;
+
+            var databaseName = MongoUrl.Create(connectionString).DatabaseName;
+            var mongoDatabase = new MongoClient(connectionString).GetDatabase(databaseName);
+
+
+
+            var personRepository = new PersonRepository(mongoDatabase, timeoutMs);
             services.AddSingleton<IPersonRepository>(personRepository);
             services.AddSingleton<IPersonService>(new PersonService(personRepository));
         }
