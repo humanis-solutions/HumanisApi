@@ -4,6 +4,7 @@ using Humanis.Data.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Humanis.Application.Services
 {
@@ -16,9 +17,9 @@ namespace Humanis.Application.Services
             this.personRepository = personRepository;
         }
 
-        public IEnumerable<Person> GetAll()
+        public async Task<IEnumerable<Person>> GetAllAsync()
         {
-            var result = personRepository.GetAll();
+            var result = await personRepository.GetAllAsync().ConfigureAwait(false);
             return result.ToDto();         
         }
 

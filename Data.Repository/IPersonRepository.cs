@@ -2,12 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Humanis.Data.Repository
 {
     public interface IPersonRepository
     {
-        IEnumerable<Person> GetAll();
+        Task<IEnumerable<Person>> GetAllAsync();
         Person GetById(Guid id);
         Person GetByFirstName(string firstName);
         Person GetByLastName(string lastName);

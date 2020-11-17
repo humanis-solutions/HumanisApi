@@ -28,7 +28,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.CrossCutting
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7F2FC621-B35A-4B64-B7BC-13437B823234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services.Tests", "Application.Services.Tests\Application.Services.Tests.csproj", "{E0CFED02-7D83-436E-B0CD-388817104784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Services.Tests", "Application.Services.Tests\Application.Services.Tests.csproj", "{E0CFED02-7D83-436E-B0CD-388817104784}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

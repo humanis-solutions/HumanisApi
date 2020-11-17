@@ -25,9 +25,9 @@ namespace Humanis.Presentation.WebApi.Controllers
 
         [HttpGet]
         [Route("")]
-        public IEnumerable<Person> Get()
+        public async Task<IEnumerable<Person>> Get()
         {
-            var result = this.persons.GetAll();
+            var result = await this.persons.GetAllAsync().ConfigureAwait(false);
 
             return result;
         }

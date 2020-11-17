@@ -1,38 +1,41 @@
-﻿using Humanis.Domain.Model;
+﻿using Humanis.Data.Repository.Collections;
+using Humanis.Data.Repository.Mappers;
+using Humanis.Domain.Model;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Humanis.Data.Repository
 {
     public class PersonRepository : IPersonRepository
     {
+        private string collectionName = "Person";
         private IMongoDatabase mongoDatabase;
         private TimeSpan timeoutMs;
-        private string CollectionName = "Person";
+        private FindOptions findOptions;
 
         private List<Person> persons;
         public PersonRepository(IMongoDatabase mongoDatabase, int timeoutMs)
         {
             this.mongoDatabase = mongoDatabase;
             this.timeoutMs = TimeSpan.FromMilliseconds(timeoutMs);
-
-
-            persons = new List<Person>{
-                new Person { Id = new Guid("3f54fd1c-2ab1-4954-b765-b9f6aed80bc3"), FirstName = "Sérgio", LastName = "Sousa" },
-                new Person { Id = Guid.NewGuid(), FirstName = "Paulo", LastName = "Teixeira" },
-                new Person { Id = Guid.NewGuid(), FirstName = "Nelson", LastName = "Gomes" },
-                new Person { Id = Guid.NewGuid(), FirstName = "Nelson", LastName = "Silva" } };
+            this.findOptions = new FindOptions
+            {
+                MaxTime = this.timeoutMs
+            };
         }
 
-
-        public IEnumerable<Person> GetAll()
+        public async Task<IEnumerable<Person>> GetAllAsync()
         {
-
-
-            return persons;
-
+            var filter = new BsonDocument();
+            var collection = this.mongoDatabase.GetCollection<PersonDocument>(collectionName);
+            var result = await collection.Find(filter, findOptions).ToListAsync().ConfigureAwait(false);
+            
+            return result.ToModel();
+       
         }
 
         public Person GetById(Guid id)
