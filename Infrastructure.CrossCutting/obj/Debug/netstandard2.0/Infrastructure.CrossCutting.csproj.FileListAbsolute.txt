@@ -1,9 +1,0 @@
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\bin\Debug\netstandard2.0\Humanis.Infrastructure.CrossCutting.deps.json
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\bin\Debug\netstandard2.0\Humanis.Infrastructure.CrossCutting.dll
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\bin\Debug\netstandard2.0\Humanis.Infrastructure.CrossCutting.pdb
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\obj\Debug\netstandard2.0\Infrastructure.CrossCutting.AssemblyInfoInputs.cache
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\obj\Debug\netstandard2.0\Infrastructure.CrossCutting.AssemblyInfo.cs
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\obj\Debug\netstandard2.0\Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\obj\Debug\netstandard2.0\Humanis.Infrastructure.CrossCutting.dll
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\obj\Debug\netstandard2.0\Humanis.Infrastructure.CrossCutting.pdb
-C:\Humanis\HumanisApi\Infrastructure.CrossCutting\obj\Debug\netstandard2.0\Infrastructure.CrossCutting.csprojAssemblyReference.cache

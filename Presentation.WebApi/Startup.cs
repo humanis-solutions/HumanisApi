@@ -54,10 +54,11 @@ namespace Humanis.Presentation.WebApi
 
 
 
-            var personRepository = new PersonRepository(mongoDatabase, timeoutMs);
+            var personRepository = new Data.Repository.PersonRepository(mongoDatabase, timeoutMs);
             services.AddSingleton<IPersonRepository>(personRepository);
             services.AddSingleton<IPersonService>(new PersonService(personRepository));
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

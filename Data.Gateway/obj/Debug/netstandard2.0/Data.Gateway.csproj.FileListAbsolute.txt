@@ -1,9 +1,0 @@
-C:\Humanis\HumanisApi\Data.Gateway\bin\Debug\netstandard2.0\Humanis.Data.Gateway.deps.json
-C:\Humanis\HumanisApi\Data.Gateway\bin\Debug\netstandard2.0\Humanis.Data.Gateway.dll
-C:\Humanis\HumanisApi\Data.Gateway\bin\Debug\netstandard2.0\Humanis.Data.Gateway.pdb
-C:\Humanis\HumanisApi\Data.Gateway\obj\Debug\netstandard2.0\Data.Gateway.AssemblyInfoInputs.cache
-C:\Humanis\HumanisApi\Data.Gateway\obj\Debug\netstandard2.0\Data.Gateway.AssemblyInfo.cs
-C:\Humanis\HumanisApi\Data.Gateway\obj\Debug\netstandard2.0\Data.Gateway.csproj.CoreCompileInputs.cache
-C:\Humanis\HumanisApi\Data.Gateway\obj\Debug\netstandard2.0\Humanis.Data.Gateway.dll
-C:\Humanis\HumanisApi\Data.Gateway\obj\Debug\netstandard2.0\Humanis.Data.Gateway.pdb
-C:\Humanis\HumanisApi\Data.Gateway\obj\Debug\netstandard2.0\Data.Gateway.csprojAssemblyReference.cache
